@@ -36,3 +36,10 @@ console.log(myDetails)
 const arrayOfNumber = [1,2,3,4]
 console.log(arrayOfNumber)
 console.log(typeof arrayOfNumber)
+
+// function
+
+function add(a,b){
+    return a+b
+}
+console.log(add(2,3))

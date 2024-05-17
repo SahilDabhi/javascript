@@ -26,6 +26,6 @@ const lastName = undefined;
 const name = firstName || lastName || "Geek";
 // this is also known as short circuting where we basically find the truthy values
 // ||(or operator) returns the first truthy value or the last falsy value
-//  && returns the first truthy value or the last truthy value v
+//  && returns the first falsy value or the last truthy value
 
 console.log(firstName ?? lastName);

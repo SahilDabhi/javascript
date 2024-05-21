@@ -33,7 +33,7 @@ let message = "I am a full stack developer";
 
 // charAt();
 
-// console.log(message.charCodeAt(0));
+console.log(typeof message.charCodeAt(0));
 
 // function increaseAsciiValue(input) {
 //   let result = "";
@@ -66,9 +66,19 @@ let message = "I am a full stack developer";
 // console.log(message.toUpperCase());
 
 const userName = "Sahil Dabhi - full stack developer";
+const userName1 = "Sahil Dabhi - full stack developer developer";
 // console.log(userName.substring(0, 11)); // this will exclude the last character so add one to include the last character
 
-const trim = "          hi there             ";
+// const trim = "          hi there             ";
 
-console.log(trim.length);
-console.log(trim.trim());
+// console.log(trim.length);
+// console.log(trim.trim());
+
+// console.log(userName.slice(0, 11));
+// console.log(userName.slice(14));
+
+console.log(userName1.replace("developer", "programmer"));
+
+console.log(userName1.replaceAll("developer", "programmer"));
+
+let name = "Sahil Dabhi";

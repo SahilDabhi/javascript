@@ -9,15 +9,18 @@ let array = [
 
 let names = ["sahil", "mihir", "jatin", "mayank"];
 
-// for (let index in names) {
-//   console.log(index);
-// }
+for (let index in names) {
+  console.log(index);
+}
 
-// for (let index of names) {
-//   console.log(index);
-// }
+for (let index of names) {
+  console.log(index);
+}
 
-// of array gives the element where as in array gives the index of the element
+// of array gives the element
+//in array gives the index of the element
+
+// ==========================================================================================
 
 // console.log(names);
 // names.push("Dhaval");

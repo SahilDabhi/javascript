@@ -4,5 +4,6 @@
   "snipped.disableTitle": true,
   "snipped.enablePng": true,
   "snipped.scale": 3,
-  "snipped.enableLogo": false
+  "snipped.enableLogo": false,
+  "cSpell.enableFiletypes": ["!elixir", "erlang"]
 }

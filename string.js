@@ -35,15 +35,15 @@ let message = "I am a full stack developer";
 
 console.log(typeof message.charCodeAt(0));
 
-// function increaseAsciiValue(input) {
-//   let result = "";
-//   for (let i = 0; i <= input.length; i++) {
-//     let asciiValue = input.charCodeAt(i);
-//     let newAsciiValue = asciiValue + 2;
-//     result += String.fromCharCode(newAsciiValue);
-//   }
-//   return result;
-// }
+function increaseAsciiValue(input) {
+  let result = "";
+  for (let i = 0; i <= input.length; i++) {
+    let asciiValue = input.charCodeAt(i);
+    let newAsciiValue = asciiValue + 2;
+    result += String.fromCharCode(newAsciiValue);
+  }
+  return result;
+}
 
 // console.log(increaseAsciiValue(message));
 

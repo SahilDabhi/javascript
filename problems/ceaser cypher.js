@@ -12,7 +12,7 @@ function encodeString(string, shiftBy) {
   return encoded;
 }
 
-console.log(encodeString(str, 2));
+console.log(encodeString(str, 1));
 
 function decodeString(string, shiftBy) {
   let decoded = "";
@@ -26,4 +26,4 @@ function decodeString(string, shiftBy) {
 
 const encodedString = "";
 
-console.log(decodeString(encodedString, 2));
+// console.log(decodeString(encodedString, 2));

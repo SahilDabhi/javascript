@@ -1,5 +1,5 @@
 function sumMinMax(min, max) {
-  sum = ((max - min + 1) * (max + min)) / 2;
+  let sum = ((max - min + 1) * (max + min)) / 2;
   console.log(sum);
 }
 

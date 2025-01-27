@@ -1,7 +1,5 @@
 let str = "helloworld";
 
-str.charCodeAt;
-
 function encodeString(string, shiftBy) {
   let encoded = "";
   for (let i = 0; i < string.length; i++) {

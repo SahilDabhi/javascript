@@ -1,4 +1,4 @@
-// console.log("waterman" > "watermelon");
+console.log("waterman" > "watermelon");
 
 console.log(null == undefined);
 

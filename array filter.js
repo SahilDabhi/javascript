@@ -1,4 +1,4 @@
-const arr = [1, 2, 3, , 68, 4, 76, 5, 6, 7, 8, 9];
+const arr = [1, 2, 3, 68, 4, 76, 5, 6, 7, 8, 9];
 
 function filterNumbers(arr) {
   let tempArr = [];

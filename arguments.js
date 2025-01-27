@@ -58,7 +58,7 @@ function defau(a) {
   console.log(arguments);
 }
 
-defau(4);
+defaul(4);
 
 //if default value is not given so if we change value inside the function value will change everywhere
 // changing the value will not affect the arguments or the parameter object

@@ -18,7 +18,7 @@ function sayHello() {
 }
 
 // user1.sayHello();
-// this wont work as there is nothing to bind the funtion with the object
+// this wont work as there is nothing to bind the function with the object
 
 // sayHello.call(user1);
 // // sayHello.call(user3);
@@ -26,5 +26,8 @@ function sayHello() {
 
 //---------------------------------------------------------------------------------------------------------
 
-result = sayHello.bind(user3);
+let result = sayHello.bind(user3);
 result();
+
+let output = sayHello.apply(user3);
+console.log(output);

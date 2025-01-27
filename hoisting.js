@@ -4,7 +4,7 @@ var age = 100;
 var username = function showName() {
   console.log("Sahil Dabhi");
 };
-console.log(showName);
+console.log(showName());
 function showName() {
   console.log("Sahil Dabhi");
 }

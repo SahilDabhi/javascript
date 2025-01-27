@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>dom attribute example</h1>
+
+    <img
+      src="https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201013185512_Consumer%20Survey%20Finds%2070%20Percent%20of%20Travelers%20plan%20to%20Holiday%20in%202021.jpg"
+      alt="image"
+      id="image"
+    />
+
+    <script>
+      const image = document.getElementById("image");
+
+      image.addEventListener("mouseover", () => {
+        image.setAttribute(
+          "src",
+          "https://fastly.picsum.photos/id/404/536/354.jpg?hmac=BVbZ4ixcfdCrcGHOT7Zg6As4TTJ9YlHvB5UhVOv0Wvw"
+        );
+      });
+
+      image.addEventListener("mouseout", () => {
+        image.setAttribute(
+          "src",
+          "https://fastly.picsum.photos/id/665/536/354.jpg?hmac=ZUP396BZVlcimGikLaoXdSIZnc1itqxDyMOlOJv84hU"
+        );
+      });
+    </script>
+  </body>
+</html>
